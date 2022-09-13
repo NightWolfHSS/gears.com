@@ -1,4 +1,7 @@
 * {padding: 0; margin: 0;}
-body {
-	background: silver;
+header {
+	background: white;
+	height: 639px;
+	width: 100%;
 }
+body { background: silver;}

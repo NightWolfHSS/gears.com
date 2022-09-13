@@ -3,6 +3,7 @@
 require_once('app/models/m-home.php');
 
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,11 +26,31 @@ require_once('app/models/m-home.php');
 </head>
 <body>
 	<header>
-		<h1>привет - это главная </h1>
+		<!-- что бы были отступы -->
+		<div class="main-head-wrapper block-center">
+			<h2>описание слуга- страница</h2>
+			<h1>главная страница там что то такое</h1>
+			<!-- line decore class -->
+			<div class="head-desk">
+				<p>описание - чем занимаеся что делаем</p>
+			</div>
+			<div class="head-wp-buttons">
+				кнопочки по стилю
+			</div>
+		</div>
 	</header>
-	<p>получаем данные</p>
-	<?php 
-
-	 ?>
+	<div class="section-one">
+		<div class="section_wp_one block-center">
+			<!-- блок центр на разделение блоков -->
+		</div>
+	</div>
+	<div class="min-gallery">
+		<!-- маленькая галлерея -->
+	</div>
+	<div class="section-two">
+		<div class="section_wp_two block-center">
+			<!-- тут судя по всему тоже не мало блоков -->
+		</div>
+	</div>
 </body>
 </html>
