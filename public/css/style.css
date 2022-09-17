@@ -5,3 +5,4 @@ header {
 	width: 100%;
 }
 body { background: silver;}
+footer { background: grey; height: 500px; border-top: 20px solid orange; }

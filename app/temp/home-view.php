@@ -52,5 +52,11 @@ require_once('app/models/m-home.php');
 			<!-- тут судя по всему тоже не мало блоков -->
 		</div>
 	</div>
+
+	<footer>
+		this is changes
+		bannerts?
+	</footer>
+
 </body>
 </html>
