@@ -1,8 +1,18 @@
 * {padding: 0; margin: 0;}
 header {
-	background: white;
+	color: white;
+	background: #2B2B2B;
 	height: 639px;
 	width: 100%;
+	border-bottom: 5px solid white;
+}
+.sn-one {
+	background: white;
+	height: 400px;
+}
+.min-gallery {
+	background: silver;
+	height: 400px;
 }
 body { background: silver;}
 footer { background: grey; height: 500px; border-top: 20px solid orange; }

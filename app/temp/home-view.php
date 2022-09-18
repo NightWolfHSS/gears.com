@@ -39,7 +39,7 @@ require_once('app/models/m-home.php');
 			</div>
 		</div>
 	</header>
-	<div class="section-one">
+	<div class="section-one sn-one">
 		<div class="section_wp_one block-center">
 			<!-- блок центр на разделение блоков -->
 		</div>
