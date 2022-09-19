@@ -35,7 +35,8 @@ require_once('app/models/m-home.php');
 				<p>описание - чем занимаеся что делаем</p>
 			</div>
 			<div class="head-wp-buttons">
-				кнопочки по стилю
+				<a class="our-deals" href="#">продукция</a>
+				<a class="about" href="#">о нас</a>
 			</div>
 		</div>
 

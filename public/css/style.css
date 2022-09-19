@@ -2,14 +2,14 @@
 @import url('../fonts/roboto.css');
 /*======*/
 
-* {padding: 0; margin: 0;font-family: 'Roboto';}
+* {padding: 0; margin: 0; text-decoration: none;}
 header {
 	display: flex;
 	color: white;
 	/*background: url('../images/gone-f.jpg');*/
 	background-size: cover;
 	background-color: #2B2B2B;
-	height: 619px;
+	height: 500px;
 	width: 100%;
 	padding-top: 80px;
 	padding-bottom: 20px;
@@ -21,12 +21,42 @@ header {
 .main-head-wrapper > h2 {color: #F4CB08; margin: 122px 20px 0 0; font-size: 1.5rem; text-transform: uppercase; font-family: Roboto,sans-serif;  font-weight: 300;}
 .main-head-wrapper > h1 {margin: 20px 20px 0 0; text-transform: uppercase; font-size: 3rem;  font-family: Roboto,sans-serif; font-weight: 300;}
 .line-d { background: #F4CB08; width: 97px; height: 3px; margin: 30px auto 0 0; }
+.head-desk p {margin: 30px 192px 0 0; font-family: 'Open Sans',sans-serif; font-size: 1rem;line-height: 1.6;}
+.head-wp-buttons {margin: 30px auto 0 0;}
+.head-wp-buttons a {color: white;}
+.our-deals {     
+	font-family: 'Open Sans',sans-serif;
+	background-color: #bfa529 ;
+	text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.875rem;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    padding: 10px 30px; }
 
+.our-deals:hover {
+	background: #f4cb08;}
+
+.about {
+    font-family: 'Open Sans',sans-serif;   
+	text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.875rem;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    border: 1px solid white;
+    padding: 9px 30px;
+    margin-left: 40px;
+}
+
+.about:hover {
+	color: #000;
+	background:#fff;
+}
 
 .block-center {
 	width: 1140px;
 	margin: 0 auto;
-	/*border: 1px solid orange;*/
 }
 
 
