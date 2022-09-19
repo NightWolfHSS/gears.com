@@ -10,7 +10,7 @@ require_once('app/models/m-home.php');
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Favicon-->
-	<link rel="shortcut icon" href="img/fav.png">
+	<link rel="shortcut icon" href="/public/images/favicon.ico">
 	<!-- Author Meta -->
 	<meta name="author" content="CodePixar">
 	<!-- Meta Description -->
@@ -28,9 +28,9 @@ require_once('app/models/m-home.php');
 	<header>
 		<!-- что бы были отступы -->
 		<div class="main-head-wrapper block-center">
-			<h2>описание слуга- страница</h2>
-			<h1>главная страница там что то такое</h1>
-			<!-- line decore class -->
+			<h2>производство самого лучшего качества</h2>
+			<h1>Gears.com - производство в ...</h1>
+			<div class="line-d"></div>
 			<div class="head-desk">
 				<p>описание - чем занимаеся что делаем</p>
 			</div>
@@ -38,6 +38,7 @@ require_once('app/models/m-home.php');
 				кнопочки по стилю
 			</div>
 		</div>
+
 	</header>
 	<div class="section-one sn-one">
 		<div class="section_wp_one block-center">

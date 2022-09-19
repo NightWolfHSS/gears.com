@@ -1,11 +1,35 @@
-* {padding: 0; margin: 0;}
+/*include FONTS */
+@import url('../fonts/roboto.css');
+/*======*/
+
+* {padding: 0; margin: 0;font-family: 'Roboto';}
 header {
+	display: flex;
 	color: white;
-	background: #2B2B2B;
-	height: 639px;
+	/*background: url('../images/gone-f.jpg');*/
+	background-size: cover;
+	background-color: #2B2B2B;
+	height: 619px;
 	width: 100%;
-	border-bottom: 5px solid white;
+	padding-top: 80px;
+	padding-bottom: 20px;
 }
+.main-head-wrapper {
+	padding-left: 20px;
+	border: 1px solid yellow;
+}
+.main-head-wrapper > h2 {color: #F4CB08; margin: 122px 20px 0 0; font-size: 1.5rem; text-transform: uppercase; font-family: Roboto,sans-serif;  font-weight: 300;}
+.main-head-wrapper > h1 {margin: 20px 20px 0 0; text-transform: uppercase; font-size: 3rem;  font-family: Roboto,sans-serif; font-weight: 300;}
+.line-d { background: #F4CB08; width: 97px; height: 3px; margin: 30px auto 0 0; }
+
+
+.block-center {
+	width: 1140px;
+	margin: 0 auto;
+	/*border: 1px solid orange;*/
+}
+
+
 .sn-one {
 	background: white;
 	height: 400px;
@@ -14,5 +38,4 @@ header {
 	background: silver;
 	height: 400px;
 }
-body { background: silver;}
 footer { background: grey; height: 500px; border-top: 20px solid orange; }
