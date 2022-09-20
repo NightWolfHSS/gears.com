@@ -117,7 +117,18 @@ header {
 .two-down {
 	margin-bottom: 15px;
 }
-
+.push-next {
+	font-family: 'Open Sans',sans-serif;
+    background-color: #f4cb08;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.875rem;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    padding: 10px 30px;
+    color: white;
+}
+.push-next:hover {background: #bfa529;}
 
 .flex-style {display: flex;}
 .sn-one {background: white;}
