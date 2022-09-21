@@ -134,7 +134,14 @@ header {
 .sn-one {background: white;}
 
 .min-gallery {
+	display: flex;
 	background: silver;
 	height: 400px;
 }
+.minig-1,.minig-2,.minig-3 {height: 400px; width: 100%;}
+.minig-1 {background: #ffa258;}
+.minig-2 {background: #ffb997;}
+.minig-3 {background: #1b120f;}
+
+
 footer { background: grey; height: 500px; border-top: 20px solid orange; }

@@ -66,17 +66,21 @@ require_once('app/models/m-home.php');
 				<br><br>
 				<a class="push-next" href="#">читать больше</a>
 			</div>
-
-			<!-- блок центр на разделение блоков -->
-<!-- 			два блока изай флексы 
-			по порядку с верху имея отступы 
-			самый простой  -->
 		</div>
 
 	</div>
 
 	<div class="min-gallery">
-		<!-- маленькая галлерея -->
+		<!-- добавить картинк и пояснение -->
+		<div class="minig-1">
+			<h3 class="h3-box">better work now</h3>
+			<div class="line-d2"></div>
+			<p class="desk-g-mini">
+				какое то описание чего то 
+			</p>
+		</div>
+		<div class="minig-2"></div>
+		<div class="minig-3"></div>
 	</div>
 
 	<div class="section-two">
