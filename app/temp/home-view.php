@@ -74,24 +74,24 @@ require_once('app/models/m-home.php');
 	<div class="min-gallery">
 		<!-- добавить картинк и пояснение -->
 		<div class="minig-1">
-			<h3 class="h3-box">better work now</h3>
+			<h3 class="h3-box">Материалы</h3>
 			<div class="line-d2 x2mini"></div>
 			<p class="desk-g-mini">
-				какое то описание чего то 
+				слушат обычные сплав с нержавеющей стали
 			</p>
 		</div>
 		<div class="minig-2">
-			<h3 class="h3-box">better work now</h3>
+			<h3 class="h3-box">Комплекс</h3>
 			<div class="line-d2 x2mini"></div>
 			<p class="desk-g-mini">
-				какое то описание чего то 
+				изготовление на заказ - в разных объёмах
 			</p>
 		</div>
 		<div class="minig-3">
-			<h3 class="h3-box">better work now</h3>
+			<h3 class="h3-box">Решение</h3>
 			<div class="line-d2 x2mini"></div>
 			<p class="desk-g-mini">
-				какое то описание чего то 
+				задействую все необходимые ресурсы 
 			</p>
 		</div>
 	</div>
