@@ -138,7 +138,15 @@ header {
 	background: silver;
 	height: 400px;
 }
-.minig-1,.minig-2,.minig-3 {height: 400px; width: 100%;}
+.x2mini {margin: 17px auto 0 20px;}
+.h3-box {
+	font-family: Roboto,sans-serif;
+	font-weight: 100;
+    font-size: 1.5rem;
+    margin: 30px 20px 0;
+}
+.desk-g-mini { font-size: 1rem;line-height: 1.6;margin: 17px 20px 20px;     font-family: 'Open Sans',sans-serif; color: white;}
+.minig-1,.minig-2,.minig-3 {height: 400px; width: 100%; display: flex; justify-content: flex-end; flex-direction: column;}
 .minig-1 {background: #ffa258;}
 .minig-2 {background: #ffb997;}
 .minig-3 {background: #1b120f;}

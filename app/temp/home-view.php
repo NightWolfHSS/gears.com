@@ -23,6 +23,7 @@ require_once('app/models/m-home.php');
 	<title>Это домашняя страница</title>
 	<!-- css here -->
 	<link rel="stylesheet" href="/public/css/style.css">
+	<script src="/public/js/main.js"></script>
 </head>
 <body>
 	<header>
@@ -74,13 +75,25 @@ require_once('app/models/m-home.php');
 		<!-- добавить картинк и пояснение -->
 		<div class="minig-1">
 			<h3 class="h3-box">better work now</h3>
-			<div class="line-d2"></div>
+			<div class="line-d2 x2mini"></div>
 			<p class="desk-g-mini">
 				какое то описание чего то 
 			</p>
 		</div>
-		<div class="minig-2"></div>
-		<div class="minig-3"></div>
+		<div class="minig-2">
+			<h3 class="h3-box">better work now</h3>
+			<div class="line-d2 x2mini"></div>
+			<p class="desk-g-mini">
+				какое то описание чего то 
+			</p>
+		</div>
+		<div class="minig-3">
+			<h3 class="h3-box">better work now</h3>
+			<div class="line-d2 x2mini"></div>
+			<p class="desk-g-mini">
+				какое то описание чего то 
+			</p>
+		</div>
 	</div>
 
 	<div class="section-two">
