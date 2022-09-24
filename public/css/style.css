@@ -3,7 +3,7 @@
 /*CSS NO OPTIMIZATION*/
 
 * {padding: 0; margin: 0; text-decoration: none;}
-.litle-i { font-family: Arial; font-size: 10px; margin-left: 25px;  color: grey;}
+.litle-i { font-family: Arial; font-size: 10px; margin-left: 19px;  color: grey;}
 
 header {
 	display: flex;
@@ -23,8 +23,10 @@ header {
 	border-top: 1px solid grey;
 	padding-bottom: 90px;
 }
-.main-head-wrapper > h2 {color: #F4CB08; margin: 90px 20px 0 20px; font-size: 1.5rem; text-transform: uppercase; font-family: Roboto,sans-serif;  font-weight: 300;}
-.main-head-wrapper > h1 {margin: 20px 20px 0 20px; text-transform: uppercase; font-size: 3rem;  font-family: Roboto,sans-serif; font-weight: 300;}
+/*
+.main-head-wrapper > h2 {color: #F4CB08; margin: 90px 20px 0 20px;  text-transform: uppercase; font-family: Roboto,sans-serif;  font-weight: 300;}
+.main-head-wrapper > h1 {margin: 20px 20px 0 20px; text-transform: uppercase; font-family: Roboto,sans-serif; font-weight: 300;}
+*/
 .line-d { background: #F4CB08; width: 97px; height: 3px; margin: 30px auto 0 20px; }
 .head-desk p { margin: 30px 10px 0 20px; font-family: 'Open Sans',sans-serif; font-size: 1rem;line-height: 1.6;}
 .head-wp-buttons {margin: 30px auto 0 20px;}
@@ -52,17 +54,22 @@ header {
     padding: 9px 30px;
     margin-left: 40px;}
 
-.about:hover {	color: #000;	background:#fff;}
+.about:hover {color: #000;	background:#fff;}
 
-@media screen and (min-width: 1141px)   {
+.block-center { margin: 0 auto; }
 
-	.block-center {
-		width: 1140px;
-		margin: 0 auto;
-		/*background: silver;*/}
-
+@media screen and (min-width: 1141px) {
+	.main-font-st-2  { font-size: 2rem; font-family: 'Open Sans',sans-serif; margin: 30px auto 0 15px;}
+	.main-font-st  { font-size: 2.5rem; font-family: 'Open Sans',sans-serif; margin: 0 auto 0 15px;}
+	.block-center {width: 1140px;}
+	.main-font-st {color: #BFA529; }
+	.main-head-wrapper {padding: 20px 20px 50px 20px;}
 }
-
+@media screen and (max-width: 1140px) and (min-width: 1024px) {
+	.main-font-st {color: #BFA529; margin: 0 auto 0 15px;}	
+	.main-font-st-2{color: #fff; margin: 20px auto 0 15px;}
+	.main-head-wrapper {padding: 50px;}
+}
 
 
 .section_wp_one {
@@ -136,7 +143,6 @@ header {
 .min-gallery {
 	display: flex;
 	background: silver;
-	border-bottom: 2px solid red;
 }
 
 .x2mini {margin: 17px auto 0 20px;}
@@ -147,10 +153,25 @@ header {
     margin: 30px 20px 0;
 }
 .desk-g-mini { font-size: 1rem;line-height: 1.6;margin: 17px 20px 20px; font-weight: 100; font-family: calibri; color: white;}
-.minig-1,.minig-2,.minig-3 {height: 200px; width: 100%; display: flex; justify-content: flex-end; flex-direction: column; background: #f8f1f1;}
-.minig-1 {background: url("../images/dm1.jpg");}
-.minig-2 {background: url("../images/md2.jpg");}
-.minig-3 {background: url("../images/md3.jpg");}
+.minig-1,.minig-2,.minig-3 {
+	height: 200px; width: 100%;
+	display: flex; justify-content: flex-end;
+	flex-direction: column; background: #f8f1f1;
+	cursor: pointer;
+}
+/*Transition - here all*/
+.minig-1,.minig-2,.minig-3, .x2mini {
+	-webkit-transition: all 500ms;
+   	-moz-transition: all 500ms;
+	-o-transition: all 500ms;
+	transition: all 500ms;
+}
+.minig-1 {background: url("../images/dm1.jpg");background-size: 100%;}  
+.minig-2 {background: url("../images/md2.jpg");background-size: 100%;}
+.minig-3 {background: url("../images/md3.jpg");background-size: 100%;}
+/*anm*/
+.minig-1:hover, .minig-2:hover, .minig-3:hover { background-size: 150%; }
+.minig-1:hover .x2mini, .minig-2:hover .x2mini, .minig-3:hover .x2mini  { width: 200px; }
 
 
 footer { background: grey; height: 500px;  }

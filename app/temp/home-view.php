@@ -8,7 +8,7 @@ require_once('app/models/m-home.php');
 <html lang="en">
 <head>
 	<!-- Mobile Specific Meta -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<!-- Favicon-->
 	<link rel="shortcut icon" href="/public/images/favicon.ico">
 	<!-- Author Meta -->
@@ -29,8 +29,8 @@ require_once('app/models/m-home.php');
 	<header>
 		<!-- что бы были отступы -->
 		<div class="main-head-wrapper block-center">
-			<h2>Шестерни в Казахстане - производство лучшего качества</h2>
-			<h1>Gears.com - производство шестерн</h1>
+			<h2 class="main-font-st">Шестерни <br>в Казахстане - производство лучшего качества</h2>
+			<h1 class="main-font-st-2">Gears.com - производство шестерн</h1>
 			<i class="litle-i">правильное решение | правильный выбор</i>
 			<!-- add language -->
 			<div class="line-d"></div>
@@ -44,6 +44,9 @@ require_once('app/models/m-home.php');
 				<a class="about" href="#">о нас</a>
 			</div>
 		</div>
+
+
+		<!-- edd gear animate shadown -->
 
 	</header>
 
