@@ -28,7 +28,7 @@ require_once('app/models/m-home.php');
 <body>
 	<header>
 		<!-- что бы были отступы -->
-		<div class="main-head-wrapper block-center">
+		<div class="main-head-wrapper block-center mob-mini">
 			<h2 class="main-font-st">Шестерни <br>в Казахстане - производство лучшего качества</h2>
 			<h1 class="main-font-st-2">Gears.com - производство шестерн</h1>
 			<i class="litle-i">правильное решение | правильный выбор</i>
@@ -75,7 +75,7 @@ require_once('app/models/m-home.php');
 	</div>
 
 	<div class="min-gallery">
-		<!-- добавить картинк и пояснение -->
+		<!-- картинки сделать в ряд а не в линию на всю сделать что бы в мещалось -->
 		<div class="minig-1">
 			<h3 class="h3-box">Материалы</h3>
 			<div class="line-d2 x2mini"></div>

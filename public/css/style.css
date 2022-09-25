@@ -23,10 +23,6 @@ header {
 	border-top: 1px solid grey;
 	padding-bottom: 90px;
 }
-/*
-.main-head-wrapper > h2 {color: #F4CB08; margin: 90px 20px 0 20px;  text-transform: uppercase; font-family: Roboto,sans-serif;  font-weight: 300;}
-.main-head-wrapper > h1 {margin: 20px 20px 0 20px; text-transform: uppercase; font-family: Roboto,sans-serif; font-weight: 300;}
-*/
 .line-d { background: #F4CB08; width: 97px; height: 3px; margin: 30px auto 0 20px; }
 .head-desk p { margin: 30px 10px 0 20px; font-family: 'Open Sans',sans-serif; font-size: 1rem;line-height: 1.6;}
 .head-wp-buttons {margin: 30px auto 0 20px;}
@@ -68,7 +64,7 @@ header {
 		width: 100%;
 		padding: 20px;
 	}
-	.box-cont-one { margin-right: 20px;}
+	.box-cont-one { margin-right: 20px; }
 }
 
 @media screen and (min-width: 1141px) {
@@ -80,7 +76,7 @@ header {
 	}
 	.main-font-st-2  {font-size: 2rem;  margin: 30px auto 0 15px;}
 	.main-font-st  {font-size: 2.5rem;  margin: 0 auto 0 15px;}
-	.block-center {width: 1140px;}
+	/*.block-center {width: 1140px;} error 20px padding  */
 	.main-font-st {color: #BFA529; }
 	.main-head-wrapper {padding: 20px 20px 50px 20px;}
 }
@@ -99,14 +95,26 @@ header {
 	.box-cont-one, .box-cont-two {
 		border: 1px solid silver;
 		border-radius: 20px;
-		max-width: 500px;
+		max-width: 630px;
 		padding: 20px;
 	}
+	.box-cont-one {margin-bottom: 20px;}
 }
 
+@media screen and (max-width: 800px) {
+	.litle-i { margin:0!important;}
+	.line-d { margin: 30px auto 0 0!important;}
+	.head-desk p { margin: 30px 10px 0 0; line-height: 1.5;}
+	header { align-items: center;}
+	.mob-mini {padding: 50px 20px;}
+	.minig-1 {background: no-repeat url("../images/dm1.jpg");background-size: 160%!important;}  
+	.minig-2 {background: no-repeat url("../images/md2.jpg");background-size: 160%!important;}
+	.minig-3 {background: no-repeat url("../images/md3.jpg");background-size: 160%!important;}
+	.minig-1:hover, .minig-2:hover, .minig-3:hover { background-size: 140%!important; }
+}
 
 .section_wp_one {
-	padding: 90px 0; 
+	padding: 90px 20px; 
 	background: white;
 }
 .box-cont-one, .box-cont-two {
