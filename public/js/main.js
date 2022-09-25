@@ -4,12 +4,14 @@ const ase = {
 	ocp: "message not the sky",
 	level: 7 
 }
+
 // get staff
 for(const base in ase) {
 	console.log(base + ":  "+ ase[base]);
 }
-// next more
 
+
+// next more
 const dataEnmr = {
 	name: "kikcle",
 	message: "the message has been sent now",
@@ -32,6 +34,7 @@ let User = {
 		console.log("Name:", this.name);
 	}
 }
+
 let us1 = Object.create(User);
 us1.name = "Slowle";
 us1.display();
