@@ -104,6 +104,12 @@ require_once('app/models/m-home.php');
 	</div>
 
 	<div class="section-two">
+		<div class="block-center">
+			<h3>специальное предложение</h3>
+			<h2>Наши лучшие Сервисы</h2>
+			<p>гарантия качества</p>
+		</div>
+
 		<div class="section_wp_two block-center">
 			
 		</div>

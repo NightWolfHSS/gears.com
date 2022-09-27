@@ -56,7 +56,17 @@ header {
 .main-font-st, .main-font-st-2 {font-family: 'Open Sans',sans-serif;}
 .flex-style {display: flex;}
 
-
+.line_picture_dec {
+	overflow: hidden;
+	background: red;
+	width: 100%;
+	height: 200px;
+	margin: 20px 0;
+	vertical-align: top;
+}
+.line_picture_dec img {
+	object-fit: contain;
+}
 @media screen and (min-width: 1024px) and (max-width: 1920px) {
 	.box-cont-one, .box-cont-two {
 		border: 1px solid silver;
