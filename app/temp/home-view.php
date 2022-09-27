@@ -99,9 +99,13 @@ require_once('app/models/m-home.php');
 		</div>
 	</div>
 
+	<div class="line_picture_dec">
+		<img src="../public/images/clo.jpg" alt="image-fone">
+	</div>
+
 	<div class="section-two">
 		<div class="section_wp_two block-center">
-			<!-- тут судя по всему тоже не мало блоков -->
+			
 		</div>
 	</div>
 
