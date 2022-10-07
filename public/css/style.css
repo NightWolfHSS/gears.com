@@ -67,6 +67,7 @@ header {
 .line_picture_dec img {
 	object-fit: contain;
 }
+
 @media screen and (min-width: 1024px) and (max-width: 1920px) {
 	.box-cont-one, .box-cont-two {
 		border: 1px solid silver;
@@ -127,6 +128,19 @@ header {
 	padding: 90px 20px; 
 	background: white;
 }
+.section-two {
+	text-align: center;
+	background: orange;
+}
+.section-two h3 {
+	font-size: 1.5em;
+	font-weight: 500;
+	font-family: Roboto,sans-serif;
+	color: white;
+}
+
+
+
 .box-cont-one, .box-cont-two {
 	border: 1px solid silver;
 	border-radius: 20px;

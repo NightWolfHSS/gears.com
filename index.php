@@ -13,6 +13,7 @@
 require 'app/db/config.php';
 require 'app/vendor/autoload.php';
 
+
 // Routes 
 $dispatcher = FastRoute\simpleDispatcher(function(FastRoute\RouteCollector $r) {
 	$r->addRoute('GET', '/', 'app/temp/home-view.php');
